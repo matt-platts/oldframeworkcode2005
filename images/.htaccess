@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_URI} \.(gif|jpg|jpeg|png)$ 
+RewriteRule .* /images/no_image_available.jpg [L]
+
+RewriteRule ^$ /images/no_image/available.jpg [L]
+
+
+#ErrorDocument 404 /var/www/vhosts/gonzomultimedia.com/httpdocs/images/product_images/no_image_available.jpg 
+#ErrorDocument 403 noimage.php
+#RewriteRule ^$ /var/www/vhosts/gonzomultimedia.com/httpdocs/images/product_images/no_image_available.jpg
+

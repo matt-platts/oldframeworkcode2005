@@ -1,0 +1,68 @@
+/*
+
+Tabs.css for Mocha UI
+
+Theme: Charcoal
+
+Copyright:
+	Copyright (c) 2007-2009 Greg Houston, <http://greghoustondesign.com/>.
+	
+License:
+	MIT-style license.
+
+Required by:
+	Tabs.js
+ 
+*/
+
+/* Toolbar Tabs */
+
+.toolbarTabs {	
+	padding: 0 5px 0px 2px;
+	width:100%;
+	overflow: visible;
+	position:relative;
+	left:-1px;
+	top:8px;
+}
+
+.tab-menu {	
+	padding-top: 1px;
+	list-style:	none;
+	margin: 0;
+	padding: 0;
+	line-height: 16px;
+	font-size: 11px;
+}
+
+.tab-menu li {
+	display: block;
+	float: left;
+	margin:	0 0 5px 0;
+	cursor: pointer;	
+	background: url(../desktop/themes/default/images/tabs.gif) repeat-x;
+	background-position: left -35px;
+}
+
+.tab-menu li.selected {
+	background: url(../desktop/themes/default/images/tabs.gif) repeat-x;
+	background-position: left 0;
+}
+
+.tab-menu li a {
+	display: block;
+	margin-left: 8px;
+	padding: 6px 13px 5px 5px;
+	text-align: center;
+	font-weight: normal;
+	color: #000000;
+	background: url(../desktop/themes/default/images/tabs.gif) repeat-x;
+	background-position: right -35px;	
+}
+
+.tab-menu li.selected a {
+	color: #1b2c67;
+	font-weight: normal;
+	background: url(../desktop/themes/default/images/tabs.gif) repeat-x;
+	background-position: right 0;
+}

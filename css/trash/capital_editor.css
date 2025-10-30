@@ -1,0 +1,435 @@
+/* basic elements */
+html {
+	margin: 0px;
+	padding: 0px;
+	}
+	
+body { 
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 15px;
+	margin: 0px; 
+	padding: 0px;
+	background-color:#ffffff;
+	}
+
+p {
+	margin : 14px 0;
+	font-size:13px;
+	font-weight:normal;
+	color:#555555;
+	}
+
+a {
+	color:#0f7ea1;
+	font-weight:bold;
+}
+strong {
+	color:#00a0df;
+}
+
+ul {margin: 0px; padding: 10px;}
+li {margin: 0px;}
+	
+hr {	
+	border-bottom-style:solid;
+    border-bottom-width:1px;
+	border-bottom-color:#b2b2b2;
+	border-top-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	width:100%;
+	margin-top:5px;
+	margin-bottom:15px;
+	padding-top:1px;
+	padding-bottom:15px;
+	text-align: left;/*this will align it for IE*/
+	margin: 0 auto 0 0; /*this will align it left for Mozilla*/
+}
+
+/* classes */		
+	
+.arrow{	
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 21px;
+	color: #e55302;
+	text-transform: uppercase;
+	}
+
+.title {
+	font-family: Arial, Helvetica, verdana, sans-serif;
+	font-size:18px;
+	color:#00a0df;
+}
+
+.subtitle {
+	font-family:  Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 21px;
+	font-weight: normal;
+	color: #701371;
+	text-transform: uppercase;
+}
+	
+.dash{
+	border-top-style:dashed;
+	border-bottom-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	border-top-width:1px;
+	color:#701371;
+	}
+
+.standfirst {
+         font-family:  Arial, Helvetica, sans-serif;
+         font-size: 16px;
+         line-height: 21px;
+         color: #444;
+         font-weight:normal;
+         padding-bottom:5px;
+		 width:420px;
+        }
+
+/* navigation */
+#menu1 { 
+	font-family:  Arial, Helvetica, sans-serif;
+	font-family-size: 12px;
+	font-weight:bold;
+	width: 800px;
+	background-color:#000000;
+	height: 25px;
+	}
+
+#menu1 ul {
+	margin: 0px;
+	padding-top:3px;
+	padding-bottom:0px;
+}
+#menu1 li {
+	list-style-type: none;
+	float: left;
+	border-right-width:1px;
+	border-right-style:dotted;
+	border-right-color:#ffffff;
+	padding-bottom:0px;
+}
+
+#menu1 li.noLine {
+	list-style-type: none;
+	float: left;
+	border-right-width:0px;
+	border-right-style:none;
+	padding-bottom:0px;
+	}
+
+#menu1 a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	width:100px;
+	display: block;
+	margin: 0px;
+	padding: 2px;
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;
+	padding-bottom:0px;
+}
+
+#menu1 a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight:bold;
+	color: #000000;
+	text-decoration: none;
+	display: block;
+	background-color:cccccc;
+	padding-bottom:0px;
+}
+
+/* MAIN PAGE CONTENT */
+
+#content {
+	float:left;
+	width:452px;
+	padding-left:28px;
+	background-color:#ffffff;
+	padding-top:12px;
+	
+}
+
+
+#adverts {
+	float:left;
+	width:276px;
+	background-color:#ffffff;
+	padding-left:20px;
+	padding-top:42px;
+}
+
+
+#menu2 { 
+	margin:0px;
+	padding-top:0px;
+	width: 800px;
+	background-color:#e55302;
+	height: 23px;
+	}	
+	
+#menu2 ul {
+	margin: 0px;
+	padding-top:3px;
+}
+#menu2 li {
+	list-style-type: none;
+	float: right;
+	color: #ffffff;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+#menu2 li.noLine {
+	list-style-type: none;
+	float: right;
+	border-right-width:0px;
+	border-right-style:none;
+	padding-right:1px;
+	}
+
+#menu2 a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	padding: 2px;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: center;
+	padding-right:23px;
+}
+#menu2 a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	color:#701371;
+}
+
+#footer { 
+	text-align:left;
+	width: 800px;
+	height: 25px;
+	clear:both;
+	font-family:  Arial, Helvetica, sans-serif;
+	font-family-size: 10px;
+	padding:0px 0px 0px 0px;
+	margin:0px 10px 0px 0px;
+	background-color:#000000;
+	}
+
+#footer_phone_no {
+	float:left;
+	padding-right:20px;
+	width:380px;
+	height:25px;
+	background-image:url(http://www.mattplatts.com/capital/images/footer_menu_background.gif);
+	background-repeat:repeat;
+}
+
+#footer_menu {
+	float:left;
+	width:400px;
+	background-image:url(http://www.mattplatts.com/capital/images/footer_menu_background.gif);
+	background-repeat:repeat;
+	
+}
+
+#footer ul {	
+	margin: 0px;
+	padding-top:3px;
+	height:12px;
+}
+
+#footer li {
+	list-style-type: none;
+	float: left;
+	border-right-width:1px;
+	border-right-style:dotted;
+	border-right-color:#ffffff;
+	color:#ffffff;
+}
+
+#footer li.noLine {
+	list-style-type: none;
+	float: right;
+	border-right-width:0px;
+	border-right-style:none;
+	}
+
+#footer a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	width:100px;
+	display: block;
+	margin: 0px;
+	padding: 2px;
+	text-decoration: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-weight:bold;
+}
+#footer a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ffffff;
+	text-decoration: underline;
+	}	
+	
+#footer_text_container {
+	background-color:#000000;
+}
+
+#footer_text_left {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#ffffff;
+	font-weight:bold;
+	width:350px;
+	padding-top:10px;
+	padding-left:40px;
+	float:left;
+	background-color:#000000;
+	height:60px;
+	clear:both;
+}
+
+#footer_text_right {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#ffffff;
+	width:370px;
+	padding-top:10px;
+	padding-left:40px;
+	float:right;
+	background-color:#000000;
+	height:60px;
+}
+	
+.footer_right_small {
+	font-size:10px;
+	font-weight:normal;
+}
+
+/* specific divs */
+#container {
+	margin: 0 auto;
+	width: 800px;
+	background-color:#FFFFFF;
+	}
+	
+#flasharea { 
+	width: 800px;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	}	
+
+#spacer { 
+	width: 800px;
+	background-color:#FFFFFF;
+	height: 10px;
+	padding:0px;
+	margin:0px;
+	clear:both;
+	}	
+
+#spacer2 { 
+	width: 800px;
+	background-color:#ffffff;
+	height: 1px;
+	padding:0px;
+	margin:0px;
+	clear:both;
+	}	
+	
+#main_stage { 
+	width: 800px;
+	margin: 0 auto;
+	}	
+	
+#imagearea { 
+	float:left;
+	padding-left: 35px;
+	padding-top: 27px;
+	padding-right: 0px;
+	width:285px;
+	}	
+	
+#linespace { 
+	height:20px;
+	}			
+
+/* NEW CLASSES FOR HOME PAGE */
+
+.splash_main_box_header{
+font-weight:normal;
+font-color:#ffffff;
+font-size: 15px;
+line-height:25px;
+padding-bottom:17px;
+}
+
+.splash_side_box_header{
+font-weight:bold;
+font-color:purple;
+}
+
+.splash_main_box_line{
+border-top-width:1px;
+border-bottom-width:0px;
+border-left-width:0px;
+border-right-width:0px;
+border-top-style:dashed;
+border-top-color:#ffffff;
+width:165px;
+height:1px;
+padding-top:5px;
+padding-bottom:3px;
+}
+
+.splash_side_box_line{
+border-top-width:1px;
+border-bottom-width:0px;
+border-left-width:0px;
+border-right-width:0px;
+border-top-style:dashed;
+border-bottom-style:none;
+border-top-color:#000000;
+width:165px;
+height:1px;
+padding-top:0px;
+padding-bottom:0px;
+}
+
+.splash_main_box_text{
+font-weight:normal;
+font-color:#ffffff;
+font-size:11px;
+}
+
+.splash_side_box_text{
+font-weight:normal;
+color:#000000;
+font-size:9px;
+line-height:12px;	
+}
+	
+.splash_main_box_text a {color:#ffffff; font-weight:bold; text-decoration:none;}
+.splash_side_box_text a {color:#434343; font-weight:bold; text-decoration:none;}
+
+.Purple_Link {color:#701371;}
+.Orange_Link {color: #e55302; font-weight: bold;}
+
+#cells {font-family:Verdana, Arial, Helvetica, sans-serif; color:white; height:544px; text-align:left; background-repeat:no repeat;}
+#cell1 {padding-bottom:0px; padding-top:175px; height:94px; padding-left:15px; background-image: url('../images/pandi-splash_03.gif'); background-repeat:no repeat; width:254px;}
+#cell2 {padding-bottom:0px; padding-top:175px; height:94px; padding-left:15px; background-image: url('../images/pandi-splash_04.gif'); background-repeat:no repeat; width:254px;}
+#cell3 {padding-bottom:0px; padding-top:175px; height:94px; padding-left:15px; background-image: url('../images/pandi-splash_12.gif'); background-repeat:no repeat; width:254px;}
+#cell4 {padding-bottom:0px; padding-top:175px; height:94px; padding-left:15px; background-image: url('../images/pandi-splash_13.gif'); background-repeat:no repeat; width:254px;}

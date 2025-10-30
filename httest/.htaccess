@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule user/(\w+)/following(/?)$ user/following/index.php?url=$1
+RewriteRule user/(\w+)(/?)$ user/index.php?url=$1
+
+

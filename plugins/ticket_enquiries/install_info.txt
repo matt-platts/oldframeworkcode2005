@@ -1,0 +1,3 @@
+<p><b>Install information</b></p>
+<p>You are about to install Ticket Enquiries. This plugin provides a ticketing enquiries system with tickets able to be raised through the front end and answered through the back end admin.</p>
+

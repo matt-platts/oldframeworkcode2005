@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {font-size:12px; font-weight:normal;}
+table {font-size:12px; font-weight:normal;}
+p {font-size:12px; font-weight:normal;}
+div {font-size:12px; font-weight:normal;}
+
+#header_bar {
+	background-image:url(http://www.gonzomultimedia.co.uk/images/ie6_gifs/background1.gif);
+	margin-top:-9px;
+	
+}
+
+#verytop_outer_container {
+	height:5px;
+}
+
+#verytop_container, #content_container {
+	margin:0px;
+	margin-bottom:1px;
+	margin-top:1px;
+	margin-left:1%;
+	margin-right:1%;
+	width:94%;
+}
+
+#verytop_container{
+	height:1px;
+	margin-top:0px;
+	margin-bottom:0px;
+	padding-top:0px;
+	padding-bottom:0px;
+}
+
+#underheader, #overheader { display:none;}
+
+#header_inner_left {
+background-position:fixed;
+}
+
+#header_inner_right{
+	margin-top:8px;
+}
+
+#header_inner_left {
+	background-image:none;
+}
+
+#content{
+	width:73%;
+	overflow:hidden;
+}
+
+#kwick .kwick span, #kwick2 .kwick2 span, #kwick3 .kwick3 span, #kwick4 .kwick4 span, #kwick5 .kwick5 span {
+	padding-left:10px;
+}
+
+.kwickdesc {
+	float:left;
+	margin-left:10px;
+}
+
+.more1 {
+	background:url("../images/frontpage/arrow.gif") 75px 10px no-repeat;
+}
+
+/* NEW IE8 */
+
+.front_page_head_bold {
+	font-weight:bold;
+	color:#ffffff;
+	font-size:12px;
+}
+.front_page_head_text {
+	color:#ffffff;
+	font-size:12px;
+}
+.front_page_head_link {
+	color:#ffffff;
+	font-size:12px;
+}
+
+.bar_left_header {
+	background-color:#cd0021;
+	background-color:#fff;
+	padding:4px;
+	margin-left:-20px;
+	padding-left:25px;
+	margin-top:-4px;
+	margin-bottom:-4px;
+	color:#fff;
+	background-image:url(http://www.gonzomultimedia.co.uk/images/smudge_line_red1.png);
+	background-repeat:no-repeat;
+	overflow:hidden;
+	background-position:center center;
+}
+
+#outer_container {
+	position:relative;
+	top:-60px;
+}

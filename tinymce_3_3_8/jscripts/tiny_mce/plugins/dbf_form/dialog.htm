@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Dynamic Form</title>
+	<script type="text/javascript" src="../../tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="js/dialog.js"></script>
+</head>
+<body>
+
+<form onsubmit="DbfFormDialog.insert();return false;" action="#">
+	<p style="font-weight:bold">Insert Dynamic Form</p>
+	<hr size="1" />
+	<p><b>Selected text: </b></td><td><input id="someval" name="someval" type="text" class="text" style="width:320px" /></p>
+	<hr size="1" />
+
+	<p style="font-weight:bold">Data Source: <br />
+	<?php print "<select id=\"dbf_table\" name=\"dbf_table\">$tables_listing</select>";?>
+	<p style="font-weight:bold">Filter: <br />
+	<?php print "<select id=\"dbf_filter\" name=\"dbf_filter\">$filters_options</select>";?>
+
+	<p>Form Type: </td><td><input id="dbf_formtype" name="dbf_formtype" type="text" class="text" /></p>
+	<p>Row Id: </td><td><input id="dbf_rowid" name="dbf_rowid" type="text" class="text" /></p>
+
+	<div class="mceActionPanel">
+		<div style="float: left">
+			<input type="button" id="insert" name="insert" value="{#insert}" onclick="DbfFormDialog.insert();" />
+		</div>
+
+		<div style="float: right">
+			<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+		</div>
+	</div>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+
+# start mod_rewrite
+RewriteEngine on
+RewriteRule ^(\d+-\w+).zip$ downloadfile.php?file=$1
+# some other stuff
+
+#RewriteRule ^woodstockintro-\d+.swf$ HOW_NEW7.swf
+
+

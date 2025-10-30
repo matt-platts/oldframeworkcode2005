@@ -1,0 +1,3 @@
+<p><b>Install information</b></p>
+<p>You are about to install qcalendar. This plugin provides a front end viewable calendar, and a back end section to add and edit events on the calendar.</p>
+<p>This plugin is taken from the php script at http://www.azhowto.com/quick-calendar/.</p>

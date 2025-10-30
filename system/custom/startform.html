@@ -1,0 +1,50 @@
+<html>
+<head><title>asdf</title>
+
+</head>
+
+<body>
+
+
+
+<h3>Send a Form with Ajax</h3>
+<p><a href="demos/Ajax.Form/ajax.form.phps">See ajax.form.phps</a></p>
+ 
+<form id="myForm" action="ajax_update_game_result.php" method="get">
+	<div id="form_box">
+		<div>
+			<p>First Name:</p>
+			<input type="text" name="first_name" value="John" />
+		</div>
+		<div>
+			<p>Last Name:</p>
+			<input type="text" name="last_name" value="Q" />
+		</div>
+		<div>
+			<p>E-Mail:</p>
+			<input type="text" name="e_mail" value="john.q@mootools.net" />
+		</div>
+		<div>
+			<p>MooTooler:</p>
+			 <input type="checkbox" name="mootooler" value="yes" checked="checked" />
+		</div>
+		<div>
+			<p>New to Mootools:</p>
+	        <select name="new">
+	          <option value="yes" selected="selected">yes</option>
+	          <option value="no">no</option>
+	        </select>
+		</div>
+		<div class="hr"><!-- spanner --></div>
+		<input type="submit" name="button" id="submitter" />
+	<span class="clr"><!-- spanner --></span>
+	</div>
+</form>
+<div id="log">
+	<h3>Ajax Response</h3>
+	<div id="log_res"><!-- spanner --></div>
+</div>
+<span class="clr"><!-- spanner --></span>
+
+</body>
+</html>

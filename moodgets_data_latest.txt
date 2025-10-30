@@ -1,0 +1,21 @@
+action = moodgets_save
+t = user_types
+pureAjax = 1
+deleted = []
+updated = []
+PHPWEBMAILSESSID = opb4glstdfmt1oolv8adnhqa96
+PHPWMADMINSESSID = cjbt6b7a849a178pndt3hct1q4
+order_id = 5037
+PHPSESSID = pt4a7srnl58ud0bog80nicsrf6
+login = IDpt4a7srnl58ud0bog80nicsrf6
+Full results: array (
+  0 => 
+  array (
+    '' => 
+    array (
+      '' => '',
+    ),
+  ),
+  1 => 'On rowid :',
+  2 => false,
+)

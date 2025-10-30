@@ -1,0 +1,17 @@
+<div id="radiusSlider" class="slider">
+	<div id="radiusUpdate" class="update">Please Log in to the desktop:</div>
+	<div id="loginform">
+		<form method="post" action="?action=process_login" id="XHRLoginForm" name="XHRLoginForm" onSubmit="return false">
+			<table cellpadding="0" cellspacing="0" border="0">
+			<tr><td align="right">Email: &nbsp;</td><td> <input type="text" name="email_address" /></td></tr>
+			<tr><td>Password: &nbsp;</td><td> <input type="password" name="password" /></td></tr>
+			<tr><td></td><td>
+			<input type="submit" onClick="doajaxLogin()" value="Log In">
+			&nbsp;
+			<input type="reset" value="Reset Form">
+			</table>
+
+		</form>
+	</div>
+	<div class="clear"></div>
+</div>

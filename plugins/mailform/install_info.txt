@@ -1,0 +1,1 @@
+<b>Installing Mailform Plugin..</b>

@@ -1,0 +1,18 @@
+RewriteEngine on
+AddType audio/ogg .ogg
+AddType audio/ogg .oga
+
+# this stops anyone passing http:// in the query string (following 2 lines) - help to stop rfi attacks;
+RewriteEngine on
+RewriteCond %{QUERY_STRING} (.*)(http|https|ftp):\/\/[^p](.*)
+RewriteRule ^(.+)$ - [F]
+
+RewriteRule mui-administrator.php admin_routing.php
+RewriteRule administrator.php admin_routing.php
+RewriteRule site.php /site_routing.php
+RewriteRule ^css/(.*)$ /css/$1
+RewriteRule ^scripts/(.*)$ /scripts/$1
+RewriteRule tinymce_3_3_8/(.*) /tinymce_3_3_8/$1
+
+RewriteCond %{REQUEST_URI}  !(\.html|\.png|\.jpg|\.gif|\.jpeg|\.bmp|\.pdf|\.php|\.js|\.css|\.xml|\.ico)$
+RewriteRule (.*)  /admin/admin_routing.php [QSA,L]

@@ -1,0 +1,40 @@
+body {
+	background-color:#fff;
+}
+
+#col2 {
+	position:relative; 
+	top:0px; 
+	left:0px; 
+	width:inherit;
+	text-align:left; 
+	padding-top:0px; 
+	margin-top:0px; 
+	background-color:transparent;
+}
+
+#master_interface_header {
+	float:left;
+	width:100%;
+	padding:3px 0px 0px 10px;
+	border: 1px #333 solid;
+	border-bottom: 3px #333 groove;
+	border-left-width:0px;
+	border-right-width:0px;
+	margin-bottom:3px;
+}
+
+.admin_header {background-image:url(../system/graphics/application_images/admin_top_bar_grey.png); }
+
+#table_title_div {
+	 background-image:url(../system/graphics/application_images/admin_top_bar_grey.png);
+}
+
+.table_title {
+	background-image:url(../system/graphics/application_images/admin_top_bar_grey.png); 
+}
+
+#interface_buttons{float:left; width:204px; padding-bottom:4px; padding-top:6px; padding-left:10px; background-image:url(../system/graphics/application_images/admin_side_bar_grey.png);}
+
+.admin_side_header {background-image:url(../system/graphics/application_images/admin_side_bar_grey.png);}
+

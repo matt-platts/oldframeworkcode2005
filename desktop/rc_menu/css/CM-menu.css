@@ -1,0 +1,52 @@
+div.CM-menu {
+	display: none;
+	position: absolute;
+	min-width: 120px;
+	min-height: 20px;
+	background: #FFFFFF;
+	border : 1px #777777 solid;
+	z-index: 1000;
+	font-family:verdana,arial;
+}
+
+div.CM-menu div.link {
+	font-family: inherit;
+	font-size: 11px;
+	line-height: 1.1em;
+	cursor: pointer;
+	background: #fff;
+	padding: 3px 3px;
+	color: #000;
+}
+
+div.CM-menu div.link.sep {
+	border-bottom: 1px #ccc solid;
+}
+
+div.CM-menu div.link:hover {
+	background: #eee;
+}
+
+div.CM-menu div.link span.note {
+	display: block;
+	float: right;
+	margin-left: 10px;
+}
+
+div.CM-menu div.link span.note.arrow {
+    color: #000000;
+    font-style: normal;
+	font-weight: bold;
+}
+
+div.CM-menu div.link img.icon,
+div.CM-menu div.link div.icon {
+	position: relative;
+	display: block;
+	top: -1px;
+	margin-right: 5px;
+	float: left;
+	width: 16px;
+	height: 16px;
+	border: none;
+}

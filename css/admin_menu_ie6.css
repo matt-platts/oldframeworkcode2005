@@ -1,0 +1,251 @@
+	/* This menu code will run in ie6+ and firefox.
+		Notes: I have had to move the top of the 'ul li ul li' from 5px to 3px to
+		take into account the gap IE allows when changing from the over state to the non over
+		state (and make the likewise -3 adjustment in #menu ul li.over ul li.over ul */
+		
+#menu {top:119px;}
+
+#menu li.listitem_level1_last{
+	list-style-type: none;
+	float: left;
+	border-right-width:0px;
+	border-right-style:none;
+	}
+
+#menu ul {
+	margin: 0;
+	padding-left: 5px;
+	list-style: none;
+	 /* Width of Menu Items */
+	}
+
+#menu ul li {
+	position: relative;
+	display:inline;
+	float:left;
+	width:130px; /* A New Addition */
+	padding-left:15px;
+	padding-right:15px;
+	top:0px;
+	list-style-type:none;
+	border-right-width:1px;
+	border-right-style:solid;
+	border-right-color:#62BD1A;
+	background-color:#000000;	
+	}
+	
+#menu ul li ul li {
+position:relative;
+top:-3px;
+width:145px;
+border-right-width:0px;
+background-color:transparent;
+display:block
+margin-right:0px;
+padding-right:0px;
+}
+
+#menu ul li ul li ul li{
+margin-top:0px;
+margin-bottom:0px;
+margin-left:15px;
+width:120px;
+padding:0px;
+}
+
+#menu ul li ul li ul li ul li {
+margin-top:0px;
+margin-bottom:0px;
+margin-left:15px;
+width:120px;
+padding:0px;
+}
+
+
+#menu ul li ul li ul li ul li ul li {
+margin-top:0px;
+margin-bottom:0px;
+margin-left:15px;
+width:120px;
+padding:0px;
+}
+
+#menu li ul {
+	position: absolute;
+	left: -20px; /* Set 1px less than menu width */
+	top: 15px;
+	display: none;
+	z-Index:3;
+	}
+	
+#menu li ul li ul {
+	position: absolute;
+	left: 121px; /* Set 1px less than menu width */
+	top:9px;
+	z-index:2;
+	height:24px;
+	display: none;
+	width:120px;
+	padding:0px;
+	margin:0px;
+	}
+
+
+#menu li ul li ul li ul {
+	position: absolute;
+	left: 106px; /* Set 1px less than menu width */
+	top:9px;
+	z-index:2;
+	height:24px;
+	display: none;
+	width:120px;
+	padding:0px;
+	margin:0px;
+	}
+
+#menu li ul li ul li ul li ul {
+	position: absolute;
+	left: 106px; /* Set 1px less than menu width */
+	top:9px;
+	z-index:2;
+	height:24px;
+	display: none;
+	width:120px;
+	padding:0px;
+	margin:0px;
+	}
+
+/* Styles for Menu Items */
+#menu ul li a {
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	/*background: #fff;  IE6 Bug */
+	text-align:center;
+	}
+
+/* Styles for Menu Items 2*/
+#menu ul li ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background: #62BD1A; /* IE6 Bug */
+	background-color:#62BD1A;
+	font-weight:normal;
+	text-align:left;
+	background-image: url(../system/graphics/application_images/arrow.gif);
+	background-repeat: no-repeat;
+	background-position:left;
+	padding-left:20px;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#fff;
+	}
+	
+/* Styles for Menu Items 3*/
+#menu ul li ul li ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background: #666; /* IE6 Bug */
+	background-color: #666;
+	font-weight:normal;
+	background-image: url(../system/graphics/application_images/arrow.gif);
+	background-repeat: no-repeat;
+	background-position:left;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#fff;
+	}
+
+/* Styles for Menu Items 4*/
+#menu ul li ul li ul li ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background: #666; /* IE6 Bug */
+	background-color: #666;
+	font-weight:normal;
+	background-image: url(../system/graphics/application_images/arrow.gif);
+	background-repeat: no-repeat;
+	background-position:left;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#fff;
+	}
+
+
+/* Styles for Menu Items 5*/
+#menu ul li ul li ul li ul li ul li a {
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	background: #666; /* IE6 Bug */
+	background-color: #666;
+	font-weight:normal;
+	background-image: url(../system/graphics/application_images/arrow.gif);
+	background-repeat: no-repeat;
+	background-position:left;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#fff;
+	}
+	
+/* Fix IE. Hide from IE Mac */
+* html ul li { float: left; height: 1%; }
+* html ul li a { height: 1%; }
+/* End */
+
+#menu ul li a:hover { color: #62BD1A;  } /* Hover Styles */
+
+#menu ul li ul li a:hover  { 
+	color: #fff; 
+	background: #666; 
+	background-image: url(../system/graphics/application_images/arrow.gif);
+	background-repeat: no-repeat;
+	background-position:left;
+	} /* Hover Styles */	
+
+
+#menu ul li ul li ul li a:hover  { 
+	color: #fff; 
+	background: #cc092f; 
+	background-image: url(../system/graphics/application_images/arrow.gif);
+	background-repeat: no-repeat;
+	background-position:left;
+	} /* Hover Styles */	
+
+#menu ul li ul li ul li ul li a:hover  { 
+	color: #fff; 
+	background: #cc092f; 
+	background-image: url(../system/graphics/application_images/arrow.gif);
+	background-repeat: no-repeat;
+	background-position:left;
+	} /* Hover Styles */	
+
+#menu ul li ul li ul li ul li ul li a:hover  { 
+	color: #fff; 
+	background: #cc092f; 
+	background-image: url(../system/graphics/application_images/arrow.gif);
+	background-repeat: no-repeat;
+	background-position:left;
+	} /* Hover Styles */	
+
+	
+#menu li ul li a { padding: 2px 5px; } /* Sub Menu Styles */
+		
+#menu ul li:hover ul, #menu ul li.over ul { display: block; } /* The magic */
+#menu ul li:hover ul li ul , #menu ul li.over ul li ul { display: none;   } /* The magic */
+
+#menu ul li:hover ul li:hover ul , #menu ul li.over ul li.over ul { display: block; } /* The magic */
+#menu ul li:hover ul li:hover ul li ul , #menu ul li.over ul li.over  ul li ul { display: none;   } /* The magic */
+
+#menu ul li:hover ul li:hover ul li:hover ul , #menu ul li.over ul li.over ul li.over ul{ display: block; } /* The magic */
+#menu ul li:hover ul li:hover ul li:hover ul li ul, #menu ul li.over ul li.over ul li.over ul li ul { display: none; } /* The magic */
+
+#menu ul li:hover ul li:hover ul li:hover ul li:hover ul, #menu ul li.over ul li.over ul li.over ul li.over ul{ display: block; } /* The magic */
+
+

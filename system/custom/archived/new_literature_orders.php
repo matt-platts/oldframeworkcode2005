@@ -1,0 +1,13 @@
+<?php
+
+print "<table>";
+print "<tr style=\"background-color:#f1f1f1; font-weight:bold\"><td>Order From</td><td>Date Placed</td><td></td></tr>";
+$sql="SELECT literature_sales.id as orderno, user.first_name,user.second_name,literature_sales.date_placed FROM literature_sales INNER JOIN user ON literature_sales.ordered_by = user.id WHERE literature_sales.complete IS NULL OR literature_sales.complete = 0 ORDER BY date_placed DESC";
+$res=mysql_query($sql) or die(mysql_error());
+while ($h=mysql_fetch_array($res)){
+	print "<tr><td>".$h['first_name'] . " " . $h['second_name'] . "</td><td>" . $h['date_placed'] . "</td><td><a href=\"Javascript:loadPage('administrator.php?action=admin_view_literature_order&orderno=".$h['orderno']."&jx=1')\"><img src=\"graphics/application_images/button_view_order.png\" border=0></a></td><td></td></tr>";
+}
+
+print "</table>";
+
+?>

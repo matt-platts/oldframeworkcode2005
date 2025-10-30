@@ -1,0 +1,86 @@
+<?
+<!-- EDIT THE LINE BELOW TO ENSURE THE content id is the same as the id that calls the script //-->
+<form action="site.php?s=1&action=mail_form&content=32" method="post">
+<input name="recipient" type="hidden" value="enquiries@capitalwindows.co.uk" />
+<input name="required" type="hidden" value="dbf_3_Telephone,dbf_2_Email" /><input name="subject" type="hidden" value="CapitalWindows Enquiry Form" />
+	<input name="redirect" type="hidden" value="http://www.capitalwindows.co.uk/thankyou.shtml" />
+	<table border="0" cellspacing="10" cellpadding="0" width="430">
+		<tbody>
+
+			<tr>
+				<td valign="top"><font face="arial" size="-2" color="black">
+
+				<strong>CONTACT NAME:<br />
+
+				<input name="dbf_1_Contact Name" size="30" type="text" />
+				<br />
+				EMAIL ADDRESS:<br />
+				(*Required)<br />
+
+				<input name="dbf_2_Email" size="30" type="text" />
+
+				<br />
+				LANDLINE NUMBER:<br />
+
+				(*Required)<br />
+				<input name="dbf_3_Telephone" size="30" type="text" />
+				<br />
+				MOBILE NUMBER:<br />
+
+				<input name="dbf_4_Mobile Number" size="30" type="text" /></strong></font>
+				</td>
+				<td width="180" align="left" valign="top">
+
+				<font face="arial" size="-2" color="black">
+				<strong>POSTAL ADDRESS:<br />
+				<textarea name="dbf_5_Address" rows="6" cols="25"></textarea><br />
+				POST CODE: <input type="text" size="10" name="dbf_6_Post Code" align="right"><br />
+				
+				<br clear="all" />
+				HOW SHOULD WE RESPOND?<br />
+
+				<select name="dbf_7_Respond by">
+				<option value="-">
+
+				Please select
+				</option>
+				<option value="Telephone">
+				By telephone
+				</option>
+
+				<option value="Email">
+				By email
+				</option></select>
+
+				</strong></font></td>
+			</tr>
+
+			<tr>
+				<td colspan="2" valign="top">
+				<font face="arial" size="-2" color="black">
+
+				<strong>ENTER YOUR ENQUIRY BELOW:</strong></font><br />
+				<textarea name="dbf_8_Enquiry" rows="8" cols="52"></textarea>
+				</td>
+
+			</tr>
+
+			<tr>
+				<td colspan="2" valign="top">
+				<input type="submit" value="Send Enquiry" />
+
+				<br />
+				<font face="arial" size="-2" color="black">
+				<strong>Please complete all fields for an efficient response.<br />
+				A member of staff will respond as soon as possible.</strong>
+
+				</font></td>
+			</tr>
+		</tbody>
+
+	</table>
+</form>
+
+?>
+
+

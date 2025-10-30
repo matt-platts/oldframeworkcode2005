@@ -1,0 +1,26 @@
+.tip {
+	background-color: #333;
+	padding: 2px;
+	width:230px;
+}
+
+.tip-title {
+	color: #fff;
+	background-color: #666;
+	font-size: 14px;
+	padding: 2px;
+}
+
+.tip-text {
+	color: #fff;
+	padding: 2px;
+	font-size:12px;
+}
+
+.ind {
+	width: 200px;
+	background-color: #666;
+	color: white;
+	padding: 15px;
+	border-bottom: 1px solid white;
+}

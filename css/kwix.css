@@ -1,0 +1,79 @@
+
+@charset "utf-8";
+/* CSS Document */
+
+
+.kwickdiv a {color:#333; text-decoration:none; font-weight:bold; font-size:10px; font-family:verdana;}
+#kwick2 a {color:#333; text-decoration:none; font-weight:bold; font-size:10px; font-family:verdana;}
+#kwick3 a {color:#333; text-decoration:none; font-weight:bold; font-size:10px; font-family:verdana;}
+#kwick4 a {color:#333; text-decoration:none; font-weight:bold; font-size:10px; font-family:verdana;}
+#kwick5 a {color:#333; text-decoration:none; font-weight:bold; font-size:10px; font-family:verdana;}
+#kwick6 a {color:#333; text-decoration:none; font-weight:bold; font-size:10px; font-family:verdana;}
+#kwick7 a {color:#333; text-decoration:none; font-weight:bold; font-size:10px; font-family:verdana;}
+#kwick8 a {color:#333; text-decoration:none; font-weight:bold; font-size:10px; font-family:verdana;}
+
+/*big menu*/
+#kwick, #kwick2, #kwick3, #kwick4, #kwick5, #kwick6, #kwick7, #kwick8 { width:813px; margin-top:5px; float:left; clear:both;}
+
+.kwickdiv .kwicks, #kwick2 .kwicks2, #kwick3 .kwicks3, #kwick4 .kwicks4, #kwick5 .kwicks5, #kwick6 .kwicks6, #kwick7 .kwicks7, #kwick8 .kwicks8{ 
+	height:143px; 
+	list-style-type:none; 
+	margin-top:0px; 
+	padding-top:0px;
+	width:100%;
+	min-width:800px !important;
+}
+
+.kwickdiv .kwicks { margin:0; padding:0; }
+
+.kwickdiv li , #kwick2 li, #kwick3 li, #kwick4 li, #kwick5 li, #kwick6 li, #kwick7 li, #kwick8 li { 
+	float:left; overflow:hidden; color:#111;
+	
+}
+	
+.kwickdiv .kwick, #kwick2 .kwick2, #kwick3 .kwick3, #kwick4 .kwick4, #kwick5 .kwick5, #kwick6 .kwick6, #kwick7 .kwick7, #kwick8 .kwick8 { 
+	display:block; cursor:pointer; overflow:hidden; height:143px; width:134px;
+		}
+		
+.kwickdiv .kwick span, #kwick2 .kwick2 span, #kwick3 .kwick3 span, #kwick4 .kwick4 span, #kwick5 .kwick5 span, #kwick6 .kwick6 span, #kwick7 .kwick7 span, #kwick8 .kwick8 span { 
+	display:inline; 
+	width:200px; 
+	whitespace: nowrap; 
+	padding-top:9px; padding-left:30px; 
+	overflow:hidden; 
+	/*	background-color:#fe0000; */
+	padding-right:50px; 
+	margin-bottom:10px;
+}
+				
+.kwickdiv img, #kwick2 img, #kwick3 img, #kwick4 img, #kwick5 img, #kwick6 img, #kwick7 img, #kwick8 img {
+	border: 1px #333 solid; margin-left:15px; width:100px; height:100px;
+}
+	
+#kwick2, #kwick3, #kwick4, #kwick5, #kwick6, #kwick7, #kwick8 {position:relative; left:-40px;}
+
+.kwik_header {
+	color:#111;
+	margin-bottom:10px;
+	font-weight:bold;
+	font-size:10px;
+}
+		
+.more1 {
+	display:block;
+	text-align:right;
+	font-weight:normal;
+	background:url("../images/frontpage/arrow.gif") 95px 10px no-repeat;
+	}
+
+.more1:hover {
+	text-decoration:underline;
+}
+
+.kwickdesc {
+	float:left;
+	margin-left:15px;
+	color:#333;
+	font-weight:bold;
+	font-size:10px;
+}

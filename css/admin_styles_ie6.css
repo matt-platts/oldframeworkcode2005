@@ -1,0 +1,82 @@
+ body {
+	font-family:verdana, arial, helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+
+.general_button { height:19px; font-size:10px; color:#1b2c67; background-color:#ffffff}
+
+.mainmenu {
+	list-style-type:none;
+	list-style-image:none;
+	margin: 0;
+	padding:0;
+	}
+
+a 	{text-decoration:none;
+   	color:#1b2c67;
+	}
+
+a.hover {text-decoration:underline;
+	color:#1b2c67;
+	}
+
+
+h4 {background-color:#e1e1e1; font-weight:bold; color:#000033; font-size:12px; font-family:Trebuchet MS,Verdana,Arial,Helvetica;}
+h4.intro_text_header {background-color:#f9f9f9; font-weight:bold; color:#000033; width:450px; font-size:12px;}
+#main_page_header {position:absolute; top:10px; margin:0 auto; left:200px;}
+#menu {top:112px; left:40px; margin:0 auto; position:absolute; text-align:center; z-Index:5; }
+.admin_table_heading {text-align:center; font-weight:bold; background-color:#f1f1f1; padding-right:10px; font-size:11px;}
+.login_sidebar_textbox {width:120px; height:19px; font-size:10px; color:#1b2c67}
+.login_sidebar_button {width:50px; height:19px; font-size:10px; color:#1b2c67; background-color:#ffffff}
+.page_header{position:absolute; top:160px; left:260px; font-family: verdana, arial, helvetica, sans-serif; font-size:18px;}
+.menu_header{font-family: verdana, arial, helvetica, sans-serif; color:#00a0df; font-size:14px; padding-bottom:5px; margin-bottom:0px;}
+.title_header{position:absolute; top:30px; left:6px; font-family: verdana, arial, helvetica, sans-serif; font-size:34px;}
+.white_link{color:#ffffff;}
+#col1 {position:relative; top:-80px; left:200px; width:180px;}
+.menufrontpage {position:absolute; top:94px;}
+#col2 {float:left; position:relative; top:25px; left:5px; display:block; width:90%;}
+#status_message {position:absolute; top:30px; left:210px; padding-right:50px;}
+#credits {position:absolute; top:500px; left:6px; width:100px; font-size:4px; font-family:arial,helvetica,verdaia; font-weight:normal; color:#ffffff}
+/* multiple page stuff for candidate CV entry */
+#page1button {position:absolute; top:0px; left:0px; width:50px; height:400px}
+#page2button {position:absolute; top:0px; left:80px; width:50px; height:400px}
+#page3button {position:absolute; top:0px; left:160px; width:50px; height:400px}
+#page4button {position:absolute; top:0px; left:240px; width:50px; height:400px}
+#page5button {position:absolute; top:0px; left:320px; width:50px; height:400px}
+#page6button {position:absolute; top:0px; left:400px; width:50px; height:400px}
+#page7button {position:absolute; top:0px; left:480px; width:50px; height:400px}
+#page8button {position:absolute; top:0px; left:670px; width:50px; height:400px}
+#page9button {position:absolute; top:0px; left:730px; width:50px; height:400px}
+
+#table_title_div {float:left; padding:0px; margin:0px;}
+#page_filters {font-size:9px; font-family:verdana, arial, helvetica; background-color:#f3f3f3; padding-right:0px; margin-top:0px; padding-top:0px; float:right;} 
+.page_filter_select {font-size:9px; height:18px;}
+.page_filter_text_input {font-size:9px; height:18px;}
+.page_filter_button {font-size:9px; height:18px;}
+.page_filter_div {float:right; display:inline; padding-left:4px; padding-top:0px; padding-right:10px; border-style:solid; border-width:0px 1px 0px 0px; border-color:#cc0000;}
+
+#filter_buttons {display:inline;}
+#go_button{display:inline;}
+#clear_search_button{display:inline;}
+
+#Search_select { background-color:#f9f9f9; }
+#Filter_select { background-color:#f6f6f6;}
+#Sort_select { background-color:#f3f3f3;}
+#Records_per_page_select { background-color:#f0f0f0;}
+
+#div_below_page_filters {clear:both; padding-bottom:5px; display:block;}
+/*#footer_admin {width:100%; background-color:#f1f1f1; position:fixed; bottom:0px; padding:1px; margin:0px; padding-right:10px; height:15px; text-align:right;}*/
+#footer_admin.p {margin:0px; padding:0px; font-size:9px; text-align:right; padding-right:20px;}
+#section_preview {position:relative; top:0px; width:150px; height:70px; overflow:auto; float:right; z-Index:2; background-color:#ffffff;}
+.section_preview_loaded {border-style:solid; border-width:thin; border-color:#ff0000;}
+.preview_header {background-color:#1b2c67; color:white; font-size:9px; font-weight:bold;}
+.preview_list {color:#333333; font-size:9px; padding-top:0px; padding-left:0px; margin-top:0px; margin-left:0px;}
+
+.select_list_inline_header {font-family: verdana, arial, helvetica; font-weight:bold; background-color:#f1f1f1; color:black; font-size:9px;}
+
+.bordered_header_box {background-color:#ffffff; padding:5px; font-weight:bold; font-size:17px; border-width:1px; border-style:solid; margin:2px; float:left;}
+.help_for_filter_keys {display:inline; font-size:8px; float:left; width:450px; padding-left:40px;}
+
+#content ul {display:block; clear:both; }
+#content ul li {display:block; clear:both; }

@@ -1,0 +1,7 @@
+rewriteEngine on
+RewriteRule ^images/(.*) http://www.gonzomultimedia.co.uk/images/$1
+RewriteRule ^system/(.*) http://www.gonzomultimedia.co.uk/system/$1
+
+RewriteCond %{QUERY_STRING} (^jx=1$)
+RewriteRule .* /admin/$1
+

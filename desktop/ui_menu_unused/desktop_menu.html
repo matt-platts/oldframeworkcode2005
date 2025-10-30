@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" id="html">
+<head>
+    <title>MooTools UI menu</title>
+    <style type="text/css" media="all">
+        @import "menu/menu.css";
+    </style>
+
+    <script src="mootools-beta-1.2b2.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        var UI = {};
+
+        window.addEvent( 'domready', function() {
+
+                    document.oncontextmenu  = function() { return false; };
+
+                    var desktopMenu2  = new UI.Menu( 'rightClickTest', { event : 'rightClick' } );
+		    desktopMenu2.addItems( [  
+
+
+                                           { id : 'buttonChangeTheme', label :'Change Theme', icon : 'menu/add.png' }
+                                        ,   { id : 'buttonChangeBackground', label :'Change Background', icon : 'menu/application.png', onclick : function() { alert('clicked'); } }
+				//	,   { id : 'button13', label :'Toggle previous button status', onclick : function() { desktopMenu2.toggleItem( 'buttonChangeBackground' ); } }
+				       	] );
+
+
+                    var desktopMenu3   = desktopMenu2.addSubMenu( 'buttonChangeTheme' );
+                    desktopMenu3.addItem( { id : 'button14', label : 'Default', icon: 'menu/application.png' } );
+                    desktopMenu3.addItem( { id : 'button141', label : 'Charcoal', icon: 'menu/application.png' } );
+
+                    var desktopMenu4   = desktopMenu2.addSubMenu( 'button121' );
+                    desktopMenu4.addItem( { id : 'button141', label : 'SubMenu' } );
+
+                    var desktopMenu5   = desktopMenu4.addSubMenu( 'button141' );
+                    desktopMenu5.addItem( { id : 'button50', label : 'sub sub menu' } );
+
+
+                } );
+
+    </script>
+    <script src="menu/UI.Menu.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+<div id="rightClickTest" style="border : 1px solid black;">
+<br /><br />
+Right Click Here
+<br /><br />
+</div>
+
+</body>
+</html>
+

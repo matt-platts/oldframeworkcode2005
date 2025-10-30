@@ -1,0 +1,5 @@
+<p>You are about to install the Mailing List plugin.</p>
+<p>Installing this plugin will create two new database tables - emails and
+mailing_list.</p>
+<p>A number of filters and extra content pages will automatically be added as
+well.</p>

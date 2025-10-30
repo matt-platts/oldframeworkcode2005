@@ -1,0 +1,367 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+html,body {
+	margin:0;
+	padding:0;
+	color:#000;
+	background:#fff;
+}
+	
+body {
+	border:0px;
+	margin: 0px auto;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	text-align:center;
+	font-family:tahoma, verdana, arial;
+	font-size:13px;	
+	color:#000;
+	font:76%/140% "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	min-width:980px;
+}
+#overheader {
+	clear:both;
+	height:2px;
+	background-color:#CCCCCC;
+}
+#underheader {
+	clear:both;
+	width:100%;
+	height:2px;
+	background-color:#CCCCCC;
+}
+#header_bar {
+	width:100%;
+	height:109px;
+	background-color:#1e56a0;
+	text-align:left;
+	float:left;
+	clear:both;
+}
+
+#header_inner_left {
+	float:left;
+	clear:none;
+	height:inherit;
+	color:#fff;
+}
+
+.menu_logintop {
+	color:#fff;
+}
+
+.menu_logintop a {
+	color:#fff;
+}
+#header_inner_right {
+		float:right;
+		height:inherit;
+		background-color:#1e56a0;
+		padding-right:15px;
+		}
+
+#menu_bar_1 {
+	background-color:#1b2c67;
+	clear:both;
+	width:100%;
+	height:21px;
+	color:#fff;
+	font-weight:bold;
+	padding-top:4px;
+	}
+
+#menu_bar_2 {
+	background-color:#1e3274;
+	clear:both;
+	width:100%;
+	height:19px;
+	color:#fff;
+	font-weight:bold;
+	padding-top:4px;
+}
+
+#menu_bar_3 {
+	background-color:#223781;
+	clear:both;
+	width:100%;
+	height:17px;
+	color:#fff;
+	font-weight:bold;
+	padding-top:3px;
+}
+
+#menu_bar_1 ul, #menu_bar_2 ul, #menu_bar_3 ul {
+	display:inline;
+	margin:0px;	
+	padding:0px;
+}
+
+#menu_bar_1 ul li, #menu_bar_2 ul li, #menu_bar_3 ul li {
+	display:inline;
+	margin:0px;
+	padding:0px;
+	padding-left:5px;
+	padding-right:14px;
+	margin-left:5px;
+	margin-right:6px;
+	list-style-type:none;
+	border-right: 1px #aaa dashed;
+}
+
+#menu_bar_1 ul li a, #menu_bar_2 ul li a, #menu_bar_3 ul li a {
+	color:#fff;
+	text-decoration:none;
+	padding:0px 2px 0px 2px;
+	text-align:center;
+}
+
+#menu_bar_2 ul li a {
+	font-size:10px;
+	position:relative; top:-2px;
+}
+
+#menu_bar_3 ul li a {
+	font-size:10px;
+	position:relative; top:-2px;
+}
+
+#menu_bar_1 ul li a:hover, #menu_bar_2 ul li a:hover, #menu_bar_3 ul li a:hover {
+	color:#fff;
+	text-decoration:none;
+	background-color:#0099FF;
+}
+
+#menu_bar_1 ul li.artist_az_link { padding-left:0px; padding-right:0px; margin:0px; border-right:none}
+#menu_bar_1 ul li.artist_az_link a { padding-left:1px; padding-right:1px;}
+
+#dbf_search_for {
+	color:#666666;
+}
+#menu_bar_1 ul li.last, #menu_bar_2 ul li.last, #menu_bar_3 ul li.last {
+	border-right:0px #fff solid;
+}
+
+#outer_container {
+	background-color:#CCCCCC;
+	width:100%;
+	margin:0px auto;
+	padding:0px;
+	float:left;
+	text-align:center;
+	}
+
+#verytop_outer_container{
+	background-color:#CCCCCC;
+	width:100%;
+	margin:0px auto;
+	padding:0px;
+	float:left;
+	text-align:center;
+	height:15px;
+	
+	}
+
+#verytop_container{
+	text-align:left;
+	margin:24px;
+	padding:1px;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-left: 1px #444 solid;
+	border-right: 1px #444 solid;
+	height:100%;
+	width:95%;
+	float:left;
+	background-color:#fff;
+	margin-top:4px;
+	margin-bottom:2px;
+	}
+
+
+#content_container{
+	text-align:left;
+	margin:24px;
+	padding:4px;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-left: 1px #444 solid;
+	border-right: 1px #444 solid;
+	height:100%;
+	width:95%;
+	float:left;
+	background-color:#fff;
+}
+
+#content {
+	float:left;
+	width:70%;
+}
+
+#content-base {
+	float:left;
+	clear:both;
+	}
+
+#content_right {
+	text-align:center;
+	float:right;
+	width:200px;
+	margin-top:40px;
+	padding: 0px 10px 0px 10px; 
+	background-color:#fff;
+}
+	
+#content_right a{
+	color:#111;
+	text-decoration:none;
+}
+
+.bar_left_header {
+	background-color:orange;
+	padding:4px;
+	margin-top:-4px;
+	margin-bottom:-4px;
+}
+
+.bar_right_header {
+	background-color:#1e56a0;
+	padding:4px;
+	margin-top:-4px;
+	margin-bottom:-4px;
+	color:#fff;
+}
+
+.hr {margin:1px; padding:1px; border:0px;}
+
+#footer {
+	text-align:left;
+	clear:both;
+	padding:10px;
+	border-top:1px #333 dashed;
+}
+
+.page_title {
+	font-size:14px;
+	font-weight:bold;
+	background-color:#1b2c67;
+	color:#fff;
+	padding:5px;
+	margin: 1px;
+	border-top: 1px #333 solid;
+	border-bottom: 1px #333 solid;
+}
+
+#content a { color:#1b2c67; text-decoration:none;}
+
+
+.read_more_news {
+	display:inline;
+	text-align:right;
+	padding:0 18px 2px 21px;
+	margin-top:4px;
+	background:url("../images/frontpage/arrow.gif") right no-repeat;
+}
+
+.order_button {
+	width:80px;
+	display:block;
+	height:28px;
+	background-image:url(../images/john_crane_button.jpg);
+	font-weight:bold;
+	font-size:13px;
+	color:#1b2c67;
+	background-repeat: no-repeat;
+	text-align:center;
+	padding-top:4px;
+	}
+
+.jc_button_100 {
+	width:100px;
+	display:block;
+	height:28px;
+	background-image:url(../images/JC100x32pxbutton.gif);
+	font-weight:bold;
+	font-size:13px;
+	color:#1b2c67;
+	background-repeat: no-repeat;
+	text-align:center;
+	padding-top:5px;
+	}
+
+
+.jc_button_120 {
+	width:120px;
+	display:block;
+	height:28px;
+	background-image:url(../images/JC120x32pxbutton.gif);
+	font-weight:bold;
+	font-size:13px;
+	color:#1b2c67;
+	background-repeat: no-repeat;
+	text-align:center;
+	padding-top:5px;
+	}
+
+.jc_button_140 {
+	width:100px;
+	display:block;
+	height:28px;
+	background-image:url(../images/JC140x32pxbutton.gif);
+	font-weight:bold;
+	font-size:12px;
+	text-decoration:none;
+	color:#1b2c67;
+	background-repeat: no-repeat;
+	text-align:center;
+	padding-top:5px;
+	}
+
+.jc_button_160{
+	width:160px;
+	display:block;
+	height:28px;
+	background-image:url(../images/JC160x32pxbutton.gif);
+	font-weight:bold;
+	font-size:13px;
+	color:#1b2c67;
+	background-repeat: no-repeat;
+	text-align:center;
+	padding-top:5px;
+	}
+
+
+
+.product_title {
+	width:527px;
+	background-repeat:no-repeat;
+	display:block;
+	padding-top:5px;
+	height:32px;
+	background-image:url (../images/JC-Orderbar-527x32px.gif);
+	font-weight:bold;
+	color:#1b2c67;
+}
+
+h3 {color:#1b2c67; background-color:#ffa500; 
+	border-top-style:dashed; border-bottom-style:dashed;
+	border-width:1px;
+	width:50%;
+	}
+
+.add_to_cart_button {
+	color:#1b2c67;
+	background-color:#FF8B00;
+	padding:1px;
+	margin:2px;
+	margin-top:10px;
+	font-weight:bold;
+	border: 1px gray dashed;
+}
+
+.toggler {font-weight:bold; border-bottom:1px #ccc dashed;}
+
+/* system generated styles */
+._form-user-add-title {padding-bottom:10px; padding-top:10px;}

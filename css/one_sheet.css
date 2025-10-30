@@ -1,0 +1,85 @@
+/* CSS Document */
+
+body, table, td
+{
+	color:#000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	margin: 2px;
+}
+
+td
+{
+	text-align: left;
+	vertical-align: top;
+}
+
+img
+{
+	border: none;
+}
+
+
+#one_sheet
+{
+	background: #FFFFFF;
+	border: 2px solid #333333;
+	padding: 8px;
+	width: 700px;
+}
+
+
+#one_sheet td
+{
+	padding: 2px;
+}
+
+#details td
+{
+	font-size: 14px;
+	padding: 1px;
+	padding-right: 10px;
+}
+
+
+#contact
+{
+	text-align: center;
+}
+
+
+#cover img
+{
+	border: 1px solid #333333;
+}
+
+#track_listing td
+{
+	padding: 0px;
+}
+
+
+#track_listing #heading
+{
+	color: #FF0000;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#track_listing #disc_n
+{
+	font-size: 12px;
+}
+
+#sales_points #heading
+{
+	color: #FF0000;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#sales_points ul
+{
+	font-size: 14px;
+}	
+

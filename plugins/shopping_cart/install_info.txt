@@ -1,0 +1,5 @@
+<p><b>Install information</b></p>
+<p>You are about to install Shopping Cart. This plugin provides a fully configurable shopping cart, with a number of options, configurations, payment modules etc.</p>
+<p>Select from the following options to configure your installation:</p>
+{=include_options}
+

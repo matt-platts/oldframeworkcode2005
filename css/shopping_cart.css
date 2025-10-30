@@ -1,0 +1,132 @@
+.remove_attribute_link {
+        color:#1b2c67;
+}
+.view_cart_static_text_color {
+        color:#222222;
+}
+
+.add_to_cart_button {
+	color:#ffffff;
+	background-color:orange;
+	padding:1px;
+	margin:2px;
+	margin-top:10px;
+	font-weight:bold;
+	border:1px #1b2c67 dashed;
+	width:130px;
+	background-image:url(http://www.gonzomultimedia.co.uk/images/shopping_cart/add_to_cart_bg.png);
+	background-repeat:no-repeat;
+	background-image:url(http://www.gonzomultimedia.co.uk/images/shopping_cart/cart_small.png);
+	background-position:3px 0px;
+	background-repeat:no-repeat;
+	padding-left:28px;
+	padding-right:3px;
+}
+
+.add_to_cart_button_2{
+	color:#ffffff;
+	background-color:transparent;
+	padding:1px;
+	margin:2px;
+	margin-top:10px;
+	font-weight:bold;
+	width:130px;
+	display:block;
+	background-image:url(http://www.gonzomultimedia.co.uk/images/shopping_cart/add_to_cart_bg.png);
+	background-repeat:no-repeat;
+/*	background-image:url(http://www.gonzomultimedia.co.uk/images/shopping_cart/cart_small.png);
+	background-position:3px 0px;
+	background-repeat:no-repeat;*/
+	padding-left:28px;
+	text-shadow: 2px 2px 2px #333333;
+	padding-right:3px;
+	padding-top:2px;
+	padding-bottom:15px;
+	color:#ffffff;
+}
+
+.add_to_cart_button_2:hover {
+	text-shadow: 2px 2px 2px #cc0000;
+}
+
+.inline_cart_total{
+        color:#333;
+	text-align:right;
+	font-weight:bold;
+}
+
+.cart_header {
+        background-color:transparent;
+        padding-left:5px;
+        padding-top:2px;
+        padding-bottom:2px;
+}
+
+.checkout_option {
+        float:left;
+        text-align:left;
+        background-color:transparent;
+        margin-bottom:5px;
+        padding:3px;
+}
+.checkout_option_text_extra {
+        font-size:11px;
+        float: left;
+        padding-left:25px;
+}
+#checkout_options {
+        background-color:transparent;
+        float:left;
+}
+
+#checkout_option_div {
+        float:left;
+        clear:both;
+        background-color:transparent;
+}
+
+.view_cart_table_header_row{
+        font-weight:bold;
+        color:#333333;
+        background-color:transparent;
+}
+
+.cart_quantity_update_text_field {
+        width:19px;
+        height:16px;
+        border: 1px #333333 solid;
+        padding-left:3px;
+}
+
+.update_quantity_div_outer{
+        height:40px;
+        background-image:url(../images/shopping_cart/quantity_adjust_bg.jpg);
+        background-repeat:no-repeat;
+        width:120px;
+        float:left;
+}
+
+.update_quantity_field_div{
+        float:left;
+        margin-left:10px;
+        margin-top:8px;
+}
+
+.update_quantity_plus_button_div{
+        float:left;
+        clear:none;
+        margin-left:10px;
+        margin-top:6px;
+}
+
+.update_quantity_minus_button_div{
+        float:left;
+        clear:none;
+        margin-left:5px;
+        margin-top:6px;
+}
+
+.continue_to_payment_block {
+	clear:both;
+	float:left;
+}
